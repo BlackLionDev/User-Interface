@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 880px;
+	height: 1290px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 39px;
+	vertical-align: bottom;
+    padding-bottom: 7px;
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: gray;
+}
+
+header img.logo {
+	margin-left: 130px;
+}
+
+.intro {
+	display: inline-block;
+	margin: 50px 100px 100px 100px;
+}
+.intro h1 {
+	font-size: 78px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.button {
+	border: 1px solid gray;
+    padding: 5px;
+    width: 175px;
+    height: 33px;
+	text-align: center;
+	margin-left: 68px;
+	letter-spacing: 1px;
+}
+
+.header-img {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.header-img img {
+	height: 350px;
+}
+
+.main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+}
+
+.main-content h2 {
+	margin-top: 20px;
+}
+
+.paragraph1 {
+	display: inline-block;
+	width: 49%;
+	margin-bottom: 30px;
+}
+
+.paragraph2 {
+	display: inline-block;
+	width: 49%;
+	margin-left: 14px;
+}
+
+.paragraph3 {
+	display: inline-block;
+	width: 32%;
+	margin-top: 14px;
+	margin-bottom: 20px;
+}
+
+.paragraph4 {
+	display: inline-block;
+	width: 32%;
+	margin-left: 14px;
+	
+}
+
+.paragraph5 {
+	display: inline-block;
+	width: 32%;
+	margin-left: 10px;
+}
+
+footer {
+	margin-top: 30px;
+    text-align: center;
+}
