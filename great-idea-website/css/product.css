@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+.container {
+	min-height: 100vh;
+	overflow: hidden;
+	background-color: lightgray;
+/*	border: 2px solid red; */
+}
+
+.core-wrapper {
+    position: fixed;
+	z-index: 20;
+	top: 0;
+    max-width: 100%;
+    min-width: 100%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+.button {
+	border: 3px solid white;
+    padding: 10px 10px;
+    width: 100px;
+    height: 20px;
+	text-align: center;
+	margin: 25px 100px;
+	letter-spacing: 1px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+}
+
+
+
+.button a {
+	text-decoration: none;
+	color: black;
+}
+
+.button a:visited {
+	text-decoration: none;
+}
+
+
+.intro {
+	display: inline-block;
+	width: 100%;
+	min-height: 100vh;
+	padding-top: 45px;
+	background-color: black;
+/*	border: 2px solid blue; */
+	background-image: url("https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	background-size: cover;
+}
+
+.flagship-item {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	height: 100%;
+	margin-top: 150px;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+.flagship-item h1 {
+	font-size: 75px;
+}
+
+.title {
+	margin: 20px;
+}
+
+
+
+header nav {
+	display: inline-block;
+	margin-top: 40px;
+	vertical-align: bottom;
+	padding-bottom: 12px; 
+/*	position: fixed;
+	top: 0;
+	width: 99.65%;
+	background-color: hsl(0, 0%, 25%); */
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: black;
+}
+
+header nav a:hover {
+	color: gray;
+}
+
+header img.logo {
+	margin-left: 85%;
+    position: fixed;
+    top: 0;
+    padding-top: 25px;
+} 
+
+
+.main-content {
+	max-width: 100%;
+	background-color: white;
+	
+}
+
+.main-content-text {
+	
+	display: inline-block;
+	width: 80%;
+	padding: 50px 50px;
+	margin-left: 90px;
+}
+
+.content-image img {
+	width: 100%;
+}
+
+.in-between {
+	background-color: lightblue;
+}
+
+.in-between p {
+	padding: 40px 40px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 1px 2px black;
+}
+
+.buy-me {
+	background-color: white;
+	display: flex;
+}
+
+.buy-me img {
+	width: 700px;
+	height: auto;
+	margin: 10px 0px 10px 10px;
+	border-radius: 10px;
+}
+
+.buy-me p {
+/*	padding: 30px 20px 0px 20px; */
+display: inline-block;
+width: 100%;
+height: 100%;
+padding: 20px 20px 5px 10px;
+top: 0;
+line-height: 20px;
+margin-left: 10px;
+}
+
+.buy-me div {
+	display: inline-block;
+	width: 49%;
+}
+
+footer {
+	text-align: center;
+	vertical-align: baseline;
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
