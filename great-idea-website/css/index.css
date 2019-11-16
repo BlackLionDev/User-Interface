@@ -75,7 +75,7 @@ header nav {
 	display: inline-block;
 	margin-top: 39px;
 	vertical-align: bottom;
-	padding-bottom: 12px;
+    padding-bottom: 7px;
 }
 
 header nav a {
@@ -85,17 +85,17 @@ header nav a {
 }
 
 header img.logo {
-	margin-left: 125px;
+	margin-left: 130px;
 }
 
 .intro {
 	display: inline-block;
 	margin: 50px 100px 100px 100px;
-	padding-top: 45px;
 }
 .intro h1 {
 	font-size: 78px;
 	text-align: center;
+	padding-bottom: 10px;
 }
 
 .button {
@@ -109,9 +109,8 @@ header img.logo {
 }
 
 .header-img {
-	float: right;
+	display: inline-block;
 	margin-top: 50px;
-	margin-right: 10px;
 }
 
 .header-img img {
@@ -151,7 +150,7 @@ header img.logo {
 	display: inline-block;
 	width: 32%;
 	margin-left: 14px;
-	
+
 }
 
 .paragraph5 {
@@ -161,6 +160,6 @@ header img.logo {
 }
 
 footer {
-	margin-top: 50px;
+	margin-top: 30px;
     text-align: center;
-}
+} 
